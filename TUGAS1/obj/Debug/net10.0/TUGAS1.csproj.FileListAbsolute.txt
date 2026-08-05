@@ -1,0 +1,14 @@
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\bin\Debug\net10.0\TUGAS1.exe
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\bin\Debug\net10.0\TUGAS1.deps.json
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\bin\Debug\net10.0\TUGAS1.runtimeconfig.json
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\bin\Debug\net10.0\TUGAS1.dll
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\bin\Debug\net10.0\TUGAS1.pdb
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.GeneratedMSBuildEditorConfig.editorconfig
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.AssemblyInfoInputs.cache
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.AssemblyInfo.cs
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.csproj.CoreCompileInputs.cache
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.dll
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\refint\TUGAS1.dll
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.pdb
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\TUGAS1.genruntimeconfig.cache
+E:\Belajar\2026-08-04\TUGAS1\TUGAS1\TUGAS1\obj\Debug\net10.0\ref\TUGAS1.dll

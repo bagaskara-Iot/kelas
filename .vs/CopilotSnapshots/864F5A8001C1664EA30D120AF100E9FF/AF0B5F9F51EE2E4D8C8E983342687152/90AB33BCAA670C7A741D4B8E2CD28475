@@ -1,0 +1,25 @@
+﻿using System;
+namespace TUGAS1
+{
+    class TUGAS1
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Muhamamad rasyad bagaskara/18");
+            // Call the other class's method to display the steps
+            Caraberangkatsalat.Show(args);
+        }
+    } 
+    class Caraberangkatsalat
+    {
+        public static void Show(string[] args)
+        {
+            Console.WriteLine("Cara berangkat salat");
+            Console.WriteLine("1. Berwudhu");
+            Console.WriteLine("2. Menghadap kiblat");
+            Console.WriteLine("3. Mengetahui waktu salat");
+            Console.WriteLine("4. Mengetahui tempat salat");
+            Console.WriteLine("5. Mengetahui jumlah rakaat salat");
+        }
+    }
+}
