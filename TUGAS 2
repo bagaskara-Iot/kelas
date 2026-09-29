@@ -1,0 +1,121 @@
+using System;
+
+namespace Perhitungan
+{
+    class Home
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Pilih Menu untuk masuk ITS");
+            Console.WriteLine("1. Jalur Prestasi");
+            Console.WriteLine("2. Jalur UTBK");
+
+            Menu.menu();
+        }
+    }
+
+    class Menu
+    {
+        public static void menu()
+        {
+            int pilihan = Convert.ToInt16(Console.ReadLine());
+
+            if (pilihan == 1)
+            {
+                Japres.prestasi();
+            }
+
+            if (pilihan == 2)
+            {
+                Utbk.nilai();
+            }
+        }
+    }
+
+    class Japres
+    {
+        public static void prestasi()
+        {
+            int tkaminimal = 280;
+            int total = 0;
+
+            Console.WriteLine("PENGHITUNGAN NILAI");
+            Console.WriteLine("TERDIRI DARI 3 MAPEL:");
+            Console.WriteLine("MATEMATIKA");
+            Console.WriteLine("BAHASA INGGRIS");
+            Console.WriteLine("PILIHAN");
+
+            Console.WriteLine("Masukkan Nilai Matematika terlebih dahulu");
+
+            int nilaimatematika = Convert.ToInt32(Console.ReadLine());
+
+            if (nilaimatematika <= 100)
+            {
+                Console.Clear();
+
+                Console.WriteLine("Nilai Matematika: " + nilaimatematika);
+                Console.WriteLine("Masukkan nilai Bahasa Inggris");
+
+                int nilaibahasainggris = Convert.ToInt32(Console.ReadLine());
+
+                if (nilaibahasainggris <= 100)
+                {
+                    Console.WriteLine("Nilai Matematika + Bahasa Inggris: "
+                        + (nilaimatematika + nilaibahasainggris));
+
+                    Console.WriteLine("Masukkan nilai Pilihan");
+
+                    int nilaipilihan = Convert.ToInt32(Console.ReadLine());
+
+                    if (nilaipilihan <= 100)
+                    {
+                        total = nilaimatematika
+                              + nilaibahasainggris
+                              + nilaipilihan;
+
+                        Console.WriteLine("Total Nilai: " + total);
+
+                        if (total >= tkaminimal)
+                        {
+                            Console.WriteLine("Masuk ITS");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Ga masuk ITS");
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    class Utbk
+    {
+        public static void nilai()
+        {
+            int passinggrade = 600;
+            double nilai = 30;
+            string its = "Belum lolos ITS";
+            double total = 0;
+
+            Console.WriteLine("Masukkan Nilai UTBK");
+
+            double nilaiutbk = Convert.ToDouble(Console.ReadLine());
+
+            total = (nilaiutbk * nilai) / 100;
+
+            Console.WriteLine("Total Nilai: " + total);
+
+            if (total >= passinggrade)
+            {
+                its = "Lolos ITS";
+            }
+            else
+            {
+                its = "Belum lolos ITS";
+            }
+
+            Console.WriteLine(its);
+        }
+    }
+}
